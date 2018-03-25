@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="ap_ausgabe" prefHeight="400.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bbbaden.composite.organigramm_fx.AusgabeController">
+   <children>
+      <VBox alignment="CENTER" layoutX="393.0" layoutY="3.0" prefHeight="42.0" prefWidth="210.0">
+         <children>
+            <Label fx:id="lbl_CEO" alignment="CENTER" prefHeight="18.0" prefWidth="152.0" text="Label">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="45.0" layoutY="127.0" prefHeight="32.0" prefWidth="210.0">
+         <children>
+            <Label fx:id="lbl_Manager_1" alignment="CENTER" prefHeight="42.0" prefWidth="210.0" text="Manager 1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="394.0" layoutY="127.0" prefHeight="32.0" prefWidth="210.0">
+         <children>
+            <Label fx:id="lbl_Manager_2" alignment="CENTER" prefHeight="63.0" prefWidth="210.0" text="Manager 2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="744.0" layoutY="127.0" prefHeight="32.0" prefWidth="210.0">
+         <children>
+            <Label fx:id="lbl_Manager_3" alignment="CENTER" prefHeight="48.0" prefWidth="210.0" text="Manager 3">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="548.0" layoutY="43.0" prefHeight="17.0" prefWidth="130.0">
+         <children>
+            <Label fx:id="lbl_Sekretär" prefHeight="25.0" prefWidth="150.0" text="Sekretär">
+               <font>
+                  <Font size="16.0" />
+               </font></Label>
+         </children>
+      </VBox>
+      <Line fx:id="ln_ceo_v" layoutX="499.0" layoutY="40.0" startY="40.0" />
+      <Line fx:id="ln_ma_1_h" endX="349.0" layoutX="150.0" layoutY="80.0" />
+      <Line fx:id="ln_ma_1_v" layoutX="150.0" layoutY="80.0" startY="51.0" />
+      <Line fx:id="ln_ma_2_v" layoutX="499.0" layoutY="80.0" startY="51.0" />
+      <Line fx:id="ln_ma_3_h" endX="349.0" layoutX="499.0" layoutY="80.0" />
+      <Line fx:id="ln_ma_3_v" layoutX="849.0" layoutY="80.0" startY="51.0" />
+      <Line fx:id="ln_sek" endX="43.0" layoutX="499.0" layoutY="56.0" />
+      <VBox layoutX="180.0" layoutY="177.0" prefHeight="128.0" prefWidth="180.0">
+         <children>
+            <Label fx:id="lb_ma1_1" prefHeight="25.0" prefWidth="206.0" text="Arbeiter 1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma1_2" prefHeight="25.0" prefWidth="313.0" text="Arbeiter 2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma1_3" prefHeight="25.0" prefWidth="279.0" text="Arbeiter 3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma1_4" prefWidth="299.0" text="Arbeiter 4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma1_5" prefHeight="25.0" prefWidth="222.0" text="Arbeiter 5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Line fx:id="ln_ma1_A" endY="134.0" layoutX="150.0" layoutY="157.0" />
+      <Line fx:id="ln_ma1_A_1" endX="25.0" layoutX="150.0" layoutY="191.0" />
+      <Line fx:id="ln_ma1_A_2" endX="25.0" layoutX="150.0" layoutY="216.0" />
+      <Line fx:id="ln_ma1_A_3" endX="25.0" layoutX="150.0" layoutY="241.0" />
+      <Line fx:id="ln_ma1_A_4" endX="25.0" layoutX="150.0" layoutY="266.0" />
+      <Line fx:id="ln_ma1_A_5" endX="25.0" layoutX="150.0" layoutY="291.0" />
+      <VBox layoutX="529.0" layoutY="177.0" prefHeight="128.0" prefWidth="180.0">
+         <children>
+            <Label fx:id="lb_ma2_1" prefHeight="25.0" prefWidth="243.0" text="Arbeiter 1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_2" prefHeight="25.0" prefWidth="243.0" text="Arbeiter 2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_3" prefHeight="25.0" prefWidth="243.0" text="Arbeiter 3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_4" prefHeight="25.0" prefWidth="243.0" text="Arbeiter 4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_5" prefHeight="25.0" prefWidth="243.0" text="Arbeiter 5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Line fx:id="ln_ma2_A" endY="134.0" layoutX="499.0" layoutY="157.0" />
+      <Line fx:id="ln_ma2_A_1" endX="25.0" layoutX="499.0" layoutY="191.0" />
+      <Line fx:id="ln_ma2_A_2" endX="25.0" layoutX="499.0" layoutY="216.0" />
+      <Line fx:id="ln_ma2_A_3" endX="25.0" layoutX="499.0" layoutY="241.0" />
+      <Line fx:id="ln_ma2_A_4" endX="25.0" layoutX="499.0" layoutY="266.0" />
+      <Line fx:id="ln_ma2_A_5" endX="25.0" layoutX="499.0" layoutY="291.0" />
+      <VBox layoutX="878.0" layoutY="177.0" prefHeight="128.0" prefWidth="217.0">
+         <children>
+            <Label fx:id="lb_ma2_11" prefHeight="25.0" prefWidth="217.0" text="Arbeiter 1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_21" prefHeight="25.0" prefWidth="217.0" text="Arbeiter 2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_31" prefHeight="25.0" prefWidth="217.0" text="Arbeiter 3">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_41" prefHeight="25.0" prefWidth="217.0" text="Arbeiter 4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_ma2_51" prefHeight="25.0" prefWidth="217.0" text="Arbeiter 5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Line fx:id="ln_ma2_A1" endY="134.0" layoutX="849.0" layoutY="157.0" />
+      <Line fx:id="ln_ma2_A_12" endX="25.0" layoutX="849.0" layoutY="191.0" />
+      <Line fx:id="ln_ma2_A_21" endX="25.0" layoutX="849.0" layoutY="216.0" />
+      <Line fx:id="ln_ma2_A_31" endX="25.0" layoutX="849.0" layoutY="241.0" />
+      <Line fx:id="ln_ma2_A_41" endX="25.0" layoutX="849.0" layoutY="266.0" />
+      <Line fx:id="ln_ma2_A_51" endX="25.0" layoutX="849.0" layoutY="291.0" />
+      <VBox layoutX="101.0" layoutY="338.0" prefHeight="102.0" prefWidth="217.0">
+         <children>
+            <Label text="Putzpersonal">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_pt_1" prefHeight="25.0" prefWidth="217.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_pt_2" prefHeight="25.0" prefWidth="217.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lb_pt_3" prefHeight="25.0" prefWidth="217.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <ButtonBar layoutX="906.0" layoutY="386.0" prefHeight="40.0" prefWidth="180.0">
+        <buttons>
+          <Button fx:id="btn_Ausgabe" mnemonicParsing="false" onAction="#handleButtonAction_Ausgabe" text="Ausgabe" />
+            <Button fx:id="btn_back" mnemonicParsing="false" onAction="#handleButtonAction_switch" text="Back" />
+        </buttons>
+      </ButtonBar>
+      <Label layoutX="401.0" layoutY="368.0" text="Ausgabe direkt Unterstellte" />
+      <ButtonBar layoutX="370.0" layoutY="386.0" prefHeight="40.0" prefWidth="381.0">
+         <buttons>
+            <Button fx:id="btn_Ausgabe1" mnemonicParsing="false" onAction="#handleButtonAction_CEO_Knechte" text="CEO" />
+            <Button fx:id="btn_Ausgabe2" mnemonicParsing="false" onAction="#handleButtonAction_M1_Knechte" text="Manager 1" />
+            <Button fx:id="btn_Ausgabe3" mnemonicParsing="false" onAction="#handleButtonAction_M2_Knechte" text="Manager 2" />
+            <Button fx:id="btn_Ausgabe4" mnemonicParsing="false" onAction="#handleButtonAction_M3_Knechte" text="Manager 3" />
+         </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
